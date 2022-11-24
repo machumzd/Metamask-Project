@@ -1,6 +1,85 @@
+@font-face {
+    font-family: Bold;
+    src: url(./fonts/EuclidCircularB-Bold-WebXL.ttf);
+}
+@font-face {
+    font-family: Regular;
+    src: url(./fonts/EuclidCircularB-Regular-WebXL.ttf);
+}
+
 *{
     box-sizing: border-box;
+    
+   padding:0;
+   margin:0;
+}
+body{
+    font-family: Regular;
+    padding: 0;
+    margin:0;
+  
 }
 .background9{
     background-color: #6a737d;
+}
+.background11 {
+    background-color: #e9ebee !important;
+}
+
+/* .boxImage{
+    min-width: 5rem;
+    min-height: 5rem;
+    max-width: 506px;
+    max-height: 477px;
+} */
+.boxTitle{
+    
+    width:80%;
+    font-size: 48px;
+    font-family: Bold;
+
+}
+.boxText{
+    font-size: 16px;
+    width:84%;
+    font-family: Regular;
+}
+.btn{
+    font-size: 16px;
+    border-radius:50px;
+    font-family: Regular;
+}
+.btnDImage{
+    margin-left: 2px;
+   border-radius: 100%;
+    border:2px solid white;
+    max-block-size: 28px;
+}
+.boxTitle2{
+    
+    width:80%;
+    font-size: 24px;
+    font-family: Bold;
+}
+
+.footerLogo{
+    max-width: 190px;
+    max-height:45px;
+}
+.fTitle{
+    font-family: Regular;
+    text-transform: uppercase;
+    color:#f6851b;
+}
+.Yvideo{
+    height: 30rem;
+}
+@media screen and (max-width:988px) {
+    *{
+        overflow-x: hidden;
+    }
+    .Yvideo{
+        height: 20rem;
+        width:100%;
+    }
 }

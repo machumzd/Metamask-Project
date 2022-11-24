@@ -11,16 +11,16 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="./style.css">
-        <script src="https://kit.fontawesome.com/c9a477b534.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/c9a477b534.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
     <div class="container">
-        <nav class="navbar navbar-expand-lg rounded" aria-label="Eleventh navbar example">
-            <div class="container-fluid">
-                <a class="navbar-brand img-fluid" href="#"><img src="./images/metamask.png" ></a>
+        <nav class="navbar navbar-expand-lg rounded bg-light fixed-top w-100" aria-label="Eleventh navbar example">
+            <div class="container">
+                <a class="navbar-brand img-fluid ps-5" href="#"><img src="./images/metamask.png"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -28,7 +28,7 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarsExample09">
-                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <ul class="navbar-nav justify-content-end flex-grow-1">
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
                                 aria-expanded="false">Features</a>
@@ -65,58 +65,64 @@
                                 <li><a class="dropdown-item" href="#">Something else here</a></li>
                             </ul>
                         </li>
+
                     </ul>
                     <button type="button" class="btn btn-primary">Sign-up</button>
-                  <h2 class="p-3 "><i class="fa-sharp fa-solid fa-toggle-on"></i></h2>
+                    <h2 class="p-3 "><i class="fa-sharp fa-solid fa-toggle-on"></i></h2>
                 </div>
             </div>
         </nav>
 
-        <section class="background1 mb-5 pb-5">
-            <div class="row justify-content-center">
-                <div class="col-6">
-                    <div class="card-body">
-                        <h2 class="card-title">A crypto wallet & gateway to blockchain apps</h2>
-                        <p class="card-text">
+        <section class="background1 mb-5 pt-5 pb-5">
+            <div class="row justify-content-md-center mt-5 pt-3 ">
+                <div class="col-md-5">
+                    <div class="card-body  mt-5">
+                        <h2 class="card-title boxTitle pt-5 pb-2">A crypto wallet & gateway to blockchain apps</h2>
+                        <p class="card-text boxText">
                             Start exploring blockchain applications in seconds. Trusted by over 30 million users
                             worldwide.</p>
-                        <a href="#" class="btn btn-primary">download for <img src="./images/Chrome_Logo.svg"></a>
+                        <button href="#" class="btn ps-3 pe-3 btn-primary ">download for <img
+                                src="./images/Chrome_Logo.svg" class="img-fluid btnDImage"></button>
                     </div>
 
                 </div>
-                <div class="col-6 text-center">
-                    <img src="./images/home-hero.webp" class="img-fluid">
+                <div class="col-md-5 text-center">
+                    <img src="./images/home-hero.webp" class="boxImage img-fluid">
                 </div>
+            </div>
+            <div class="row text-center">
+                <h6 class="">LEARN MORE</h6>
+                <i class="fa-solid fa-angle-down text-center"></i>
             </div>
         </section>
 
-        <section class="background2 mb-5">
-            <div class="row justify-content-center">
-                <div class="col-6">
+        <section class="background2 mb-5 pb-5">
+            <div class="row justify-content-md-center mt-5">
+                <div class="col-md-5">
                     <div class="card-body">
-                        <h2 class="card-title">Buy, store, send and swap tokens</h2>
-                        <p class="card-text">
+                        <h2 class="card-title boxTitle2 pt-5 pb-3">Buy, store, send and swap tokens</h2>
+                        <p class="card-text boxText ">
                             Available as a browser extension and as a mobile app, MetaMask equips you with a key vault,
                             secure login, token wallet, and token exchange—everything you need to manage your digital
                             assets</p>
                     </div>
                 </div>
 
-                <div class="col-6 text-center">
-                    <img src="./images/wallet-illo.svg" class="img-fluid">
+                <div class="col-md-5 text-center ">
+                    <img src="./images/wallet-illo.svg" class=" boxImage img-fluid">
                 </div>
             </div>
         </section>
 
-        <section class="background3 mb-5">
-            <div class="row justify-content-center">
-                <div class="col-6 text-center">
-                    <img src="./images/Explore-illo.svg" class="img-fluid">
+        <section class="background3 mb-5 pb-5">
+            <div class="row justify-content-md-center mt-5">
+                <div class="col-md-5 text-center">
+                    <img src="./images/Explore-illo.svg" class=" boxImage img-fluid">
                 </div>
-                <div class="col-6">
+                <div class="col-md-5">
                     <div class="card-body">
-                        <h2 class="card-title">Explore blockchain apps</h2>
-                        <p class="card-text">
+                        <h2 class="card-title boxTitle2 pt-5 pb-3">Explore blockchain apps</h2>
+                        <p class="card-text boxText">
                             MetaMask provides the simplest yet most secure way to connect to blockchain-based
                             applications. You are always in control when interacting on the new decentralized web.</p>
                     </div>
@@ -126,134 +132,152 @@
         </section>
 
 
-        <section class="background4 mb-5">
-            <div class="row justify-content-center d-flex">
-                <div class="col-6">
+        <section class="background4 mb-5 pb-5">
+            <div class="row justify-content-md-center mt-5">
+                <div class="col-md-5">
                     <div class="card-body">
-                        <h2 class="card-title">Own your data</h2>
-                        <p class="card-text">
+                        <h2 class="card-title boxTitle2 pt-5 pb-3">Own your data</h2>
+                        <p class="card-text boxText">
                             MetaMask generates passwords and keys on your device, so only you have access to your
                             accounts and data. You always choose what to share and what to keep private.</p>
                     </div>
                 </div>
 
-                <div class="col-6 text-center">
-                    <img src="./images/Browse-illo.svg" class="img-fluid">
+                <div class="col-md-5 text-center">
+                    <img src="./images/Browse-illo.svg" class="boxImage img-fluid">
                 </div>
             </div>
         </section>
-</div>
+    </div>
 
-        <section class="background5 mb-5">
+    <section class="background5 mb-5">
 
-            <div class="card bg-dark">
-                <img src="./images/meta.png"  class="mx-auto d-block m-5 img-fluid">
-                <h3 class="text-light mx-auto m-2">Get started</h3>
-                <button type="button" class="btn btn-primary mx-auto m-4    ">Sign-up</button>
+        <div class="card bg-dark">
+            <img src="./images/meta.png" class="mx-auto d-block m-5 img-fluid">
+            <h3 class="text-light mx-auto m-2">Get started</h3>
+            <button type="button" class="btn btn-primary mx-auto m-4    ">Sign-up</button>
 
+        </div>
+    </section>
 
+    <section class="background6 mb-5">
+
+        <div class=" text-center">
+            <h2 class="">What is MetaMask?</h2>
+
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item w-50 Yvideo"
+                    src="https://www.youtube.com/embed/YVgfHZMFFFQ" allowfullscreen></iframe>
             </div>
-        </section>
-  
-        <section class="background6 mb-5">
-            <div class="box text-center">
-                <h2 class="">What is MetaMask?</h2>
-                <div class="box" width="100%" height="1500rem" style="object-fit:cover;">
-                <iframe class="embed-responsive-item " style="width: 50rem;height:30rem;"  src="https://www.youtube.com/embed/YVgfHZMFFFQ"
-                    allowfullscreen></iframe>
-                    </div>
-                  
+        </div>
 
-            </div>
-        </section>
+    </section>
 
-  <div class="container">
-        <section class="background7">
+
+    <div class="container">
+        <section class="background7 mt-5">
             <div class="box mb-5">
                 <h2 class="text-center">Your key to blockchain applications</h2>
                 <h6 class="text-center w-90">MetaMask provides an essential utility for blockchain newcomers, token
                     traders, crypto gamers, and developers. Over a million <br>downloads and counting!</h6>
                 <div class="row">
-                    <img src="./images/dapp-aave.webp" class="col-3">
-                    <img src="./images/dapp-axieinfinity.png" class=" col-3">
-                    <img src="./images/dapp-compound.png" class="col-3">
-                    <img src="./images/dapp-gitcoin.png" class="col-3">
+                    <img src="./images/dapp-aave.webp" class="col-md-3 img-fluid p-5">
+                    <img src="./images/dapp-axieinfinity.png" class=" col-md-3 img-fluid p-5">
+                    <img src="./images/dapp-compound.png" class="col-md-3 img-fluid p-5">
+                    <img src="./images/dapp-gitcoin.png" class="col-md-3 img-fluid p-5">
                 </div>
                 <div class="row">
-                    <img src="./images/dapp-maker.png" class=" col-3">
-                    <img src="./images/dapp-opensea.png" class=" col-3">
-                    <img src="./images/dapp-rarible.png" class="col-3">
-                    <img src="./images/dapp-uniswap.png" class=" col-3">
+                    <img src="./images/dapp-maker.png" class=" col-md-3  img-fluid p-5">
+                    <img src="./images/dapp-opensea.png" class=" col-md-3  img-fluid p-5">
+                    <img src="./images/dapp-rarible.png" class="col-md-3  img-fluid p-5">
+                    <img src="./images/dapp-uniswap.png" class=" col-md-3 img-fluid p-5">
                 </div>
 
             </div>
         </section>
-</div>
-        <section class="background8 bg-dark w-100">
-            <div class="box text-center text-light">
-                <h2 class="pt-5 pb-3">Devolopers</h2>
-                <h6>MetaMask is powered by a strong community from across the globe. Interested in contributing? Find
-                    out how and what to contribute using the<br>resources below</h6>
-                <h5 class="p-3">Open Issues ></h5>
-                <h5 class="p-2">Open Bounties ></h5>
-                <h5 class="p-2">Documentation ></h5>
-                <h5 class="p-2 pb-5">Contributing Guidelines ></h5>
-            </div>
-        </section>
-   
-        <section class="background9 mt-n1">
-            <div class="row justify-content-center p-4">
-            <div class="col-3">
+    </div>
+    <section class="background8 bg-dark w-100">
+        <div class="box text-center text-light">
+            <h2 class="pt-5 pb-3">Devolopers</h2>
+            <h6>MetaMask is powered by a strong community from across the globe. Interested in contributing? Find
+                out how and what to contribute using the<br>resources below</h6>
+            <h5 class="p-3">Open Issues ></h5>
+            <h5 class="p-2">Open Bounties ></h5>
+            <h5 class="p-2">Documentation ></h5>
+            <h5 class="p-2 pb-5">Contributing Guidelines ></h5>
+        </div>
+    </section>
+
+    <section class="background9 mt-n5">
+        <div class="row justify-content-center p-4">
+            <div class="col-md-3">
                 <img class="img-fluid" src="./images/mm-shop-hoodie.webp" alt="please try again">
-            </div> 
-            <div class="col-3 " style="margin-top:10rem;">
-               <h3 class="">Shop MetaMask Swag</h3>
-               <button type="button" class="btn btn-primary">Sign-up</button>
-            </div> 
-            </div>      
-         </section>
+            </div>
+            <div class="col-md-3 p-4 mt-5">
+                <h3 class="pt-5 mt-5 text-light">Shop MetaMask Swag</h3>
+                <button type="button" class="btn btn-light ps-3 pe-3 mt-3">Shop now</button>
+            </div>
+        </div>
+        </section>
+
+    <section class="background10 mb-5">
+        <div class="text-center">
+
+            <h4 class="p-2 mt-5">Receive our Newsletter</h4>
+            <h6 class="p-2 ">Sign up to receive updates and announcements</h6>
+            <button type="button" class="btn btn-primary p-3 ps-3 pe-3">Sign-up</button>
+        </div>
+    </section>
+
+    <section class="background11">
+
+        <div class="container fLogo ">
+            <img src="./images/metamask.png" class="footerLogo m-4 mt-5 mb-5">
+        </div>
+        <div class="row justify-content-md-center ms-1 me-1">
+
+            <div class="col-md-2 mb-3 ">
+
+                <h5 class="fTitle pb-2">Learn More</h5>
+                <h6 class="">About</h6>
+                <h6 class="">Developers Docs</h6>
+                <h6 class="">Download</h6>
+                <h6 class="">Documentation</h6>
+                <h6 class="">MetaMask Institutional</h6>
+                <h6 class="">Security</h6>
+            </div>
+            <div class="col-md-2 mb-3">
+                <h5 class="fTitle pb-2">Get Involved</h5>
+                <h6 class="">GitHub</h6>
+                <h6 class="">Gitcoin</h6>
+                <h6 class="">Open Positions</h6>
+                <h6 class="">Swag Shop</h6>
+                <h6 class="">Press & Partnerships</h6>
+
+            </div>
+            <div class="col-md-2 mb-3">
+                <h5 class="fTitle pb-2">Connect</h5>
+                <h6 class="">FAQs</h6>
+                <h6 class="">Support</h6>
+                <h6 class="">News</h6>
+                <h6 class="">Twitter</h6>
+            </div>
+
+            <div class="col-md-2 mb-3">
+                <h5 class="fTitle pb-2">Legal</h5>
+                <h6 class="">Privacy Policy</h6>
+                <h6 class="">Terms of Use</h6>
+                <h6 class="">Contributor License</h6>
+                <h6 class="">Agreement</h6>
+                <h6 class="">Site Map</h6>
+               
+            </div>
+        </div>
 <div class="container">
-         <section class="background10">
-         <div class="text-center">
-            
-            <h4 class="">Receive our Newsletter</h4>
-            <h6 class="">Sign up to receive updates and announcements</h6>
-            <button type="button" class="btn btn-primary m-4 ">Sign-up</button>
-            </div>
-         </section>
+   <h6 class="m-3 pb-4">@2022 MetaMask • A ConsenSys Formation</h6>
+    </div>
+</section>
 
-         <section class="background11">
-          <div class="row">
-            <div class="col-3">
-                <h3 class="">Learn More</h3>
-                <h6 class="">About</h6>
-                <h6 class="">Developers Docs</h6>
-                <h6 class="">Download</h6>
-                <h6 class="">Documentation</h6>
-                <h6 class="">MetaMask Institutional</h6>
-                <h6 class="">Security</h6>
-            </div>
-            <div class="col-3">
-                <h3 class="">Learn More</h3>
-                <h6 class="">About</h6>
-                <h6 class="">Developers Docs</h6>
-                <h6 class="">Download</h6>
-                <h6 class="">Documentation</h6>
-                <h6 class="">MetaMask Institutional</h6>
-                <h6 class="">Security</h6>
-            </div>
-            <div class="col-3">
-                <h3 class="">Learn More</h3>
-                <h6 class="">About</h6>
-                <h6 class="">Developers Docs</h6>
-                <h6 class="">Download</h6>
-                <h6 class="">Documentation</h6>
-                <h6 class="">MetaMask Institutional</h6>
-                <h6 class="">Security</h6>
-            </div>
-          </div>
-         </section>
-         </div>
 </body>
-</html>
 
+</html>
