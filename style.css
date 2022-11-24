@@ -9,15 +9,29 @@
 
 *{
     box-sizing: border-box;
-    
    padding:0;
    margin:0;
 }
+
 body{
     font-family: Regular;
     padding: 0;
     margin:0;
   
+}
+.fullBg{
+    overflow: hidden;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+ }
+ .nav-link{
+    color:black;
+}
+.dropdown-item:hover,.nav-link:hover{
+    color: #146ff8;
+
 }
 .background9{
     background-color: #6a737d;
@@ -49,6 +63,10 @@ body{
     border-radius:50px;
     font-family: Regular;
 }
+.btn-primary:hover{
+background-color: #0076b4;
+}
+
 .btnDImage{
     margin-left: 2px;
    border-radius: 100%;
@@ -74,12 +92,12 @@ body{
 .Yvideo{
     height: 30rem;
 }
+.fItem:hover{
+color: #146ff8;
+}
 @media screen and (max-width:988px) {
-    *{
-        overflow-x: hidden;
-    }
+  
     .Yvideo{
-        height: 20rem;
-        width:100%;
+        height: auto;
     }
 }
