@@ -13,14 +13,16 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./style.css">
     <script src="https://kit.fontawesome.com/c9a477b534.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </head>
 
 <body>
 
     <div class="container">
-        <nav class="navbar navbar-expand-lg rounded bg-light fixed-top w-100" aria-label="Eleventh navbar example">
+        <nav class="navbar navbar-expand-lg rounded navbar-light fixed-top w-100" id="navbar" aria-label="Eleventh navbar example">
             <div class="container">
-                <a class="navbar-brand img-fluid ps-5" href="#"><img src="./images/metamask.png"></a>
+                <a class="navbar-brand img-fluid ps-5" href="www.machumzd.ml"><img src="./images/metamask.png"
+                        id="dLogo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -30,7 +32,7 @@
                 <div class="collapse navbar-collapse" id="navbarsExample09">
                     <ul class="navbar-nav justify-content-end flex-grow-1">
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle pe-4" href="#" data-bs-toggle="dropdown"
+                            <a class="nav-link dropdown-toggle pe-4" href="#"  id="nav-link" data-bs-toggle="dropdown"
                                 aria-expanded="false">Features</a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Portfolio Dapp</a></li>
@@ -39,7 +41,7 @@
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle pe-4" href="#" data-bs-toggle="dropdown"
+                            <a class="nav-link dropdown-toggle pe-4" id="nav-link" href="#" data-bs-toggle="dropdown"
                                 aria-expanded="false">Support</a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">FAQs</a></li>
@@ -48,7 +50,7 @@
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle pe-4" href="#" data-bs-toggle="dropdown"
+                            <a class="nav-link dropdown-toggle pe-4" id="nav-link" href="#" data-bs-toggle="dropdown"
                                 aria-expanded="false">About</a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Team</a></li>
@@ -57,7 +59,7 @@
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle pe-4" href="#" data-bs-toggle="dropdown"
+                            <a class="nav-link dropdown-toggle pe-4" id="nav-link" href="#" data-bs-toggle="dropdown"
                                 aria-expanded="false">Build</a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Devolopers Docs</a></li>
@@ -69,15 +71,17 @@
                         </li>
 
                     </ul>
-                    <button type="button" class="btn btn-primary pe-4 ps-4">Download</button>
-                    <h1 class="p-3 "><i class="fa-sharp fa-solid fa-toggle-on "></i></h1>
+                    <button type="button" class="btn btn-primary  btnD pe-4 ps-4">Download</button>
+                    <button class="border-0 bg-light"><img src="./images/light.png" id="light" class="img-fluid"
+                            onclick="dark()"></button>
                 </div>
             </div>
         </nav>
+</div>
 
 
-        
         <div class="fullBg">
+            <div class="container">
             <section class="background1 mb-5 pt-5 pb-5">
                 <div class="row justify-content-md-center mt-5 pt-3 ">
                     <div class="col-md-5">
@@ -157,137 +161,139 @@
                 </div>
             </section>
 
+</div>
+        <section class="background5 mb-5">
 
-            <section class="background5 mb-5">
+            <div class="card bg-dark">
+                <img src="./images/meta.png" class="mx-auto d-block m-5 img-fluid">
+                <h3 class="text-light mx-auto m-2">Get started</h3>
+                <button type="button" class="btn btn-primary mx-auto m-5    ">Sign-up</button>
 
-                <div class="card bg-dark">
-                    <img src="./images/meta.png" class="mx-auto d-block m-5 img-fluid">
-                    <h3 class="text-light mx-auto m-2">Get started</h3>
-                    <button type="button" class="btn btn-primary mx-auto m-5    ">Sign-up</button>
-
-                </div>
-            </section>
-
-            <section class="background6 mt-5 mb-5">
-
-                <div class="text-center">
-                    <h2 class="pb-4 pt-5">What is MetaMask?</h2>
-
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item w-50 Yvideo mb-5"
-                            src="https://www.youtube.com/embed/YVgfHZMFFFQ" allowfullscreen></iframe>
-                    </div>
-                </div>
-
-            </section>
-
-
-            <div class="container">
-                <section class="background7 mt-5">
-                    <div class="box  pt-5">
-                        <h2 class="text-center">Your key to blockchain applications</h2>
-                        <h6 class="text-center w-90">MetaMask provides an essential utility for blockchain newcomers,
-                            token
-                            traders, crypto gamers, and developers. Over a million <br>downloads and counting!</h6>
-                        <div class="row">
-                            <img src="./images/dapp-aave.webp" class="col-md-3 img-fluid p-5">
-                            <img src="./images/dapp-axieinfinity.png" class=" col-md-3 img-fluid p-5">
-                            <img src="./images/dapp-compound.png" class="col-md-3 img-fluid p-5">
-                            <img src="./images/dapp-gitcoin.png" class="col-md-3 img-fluid p-5">
-                        </div>
-                        <div class="row">
-                            <img src="./images/dapp-maker.png" class=" col-md-3  img-fluid p-5">
-                            <img src="./images/dapp-opensea.png" class=" col-md-3  img-fluid p-5">
-                            <img src="./images/dapp-rarible.png" class="col-md-3  img-fluid p-5">
-                            <img src="./images/dapp-uniswap.png" class=" col-md-3 img-fluid p-5">
-                        </div>
-
-                    </div>
-                </section>
             </div>
-            <section class="background8 bg-dark w-100">
-                <div class="box text-center text-light">
-                    <h2 class="pt-5 pb-3">Devolopers</h2>
-                    <h6>MetaMask is powered by a strong community from across the globe. Interested in contributing?
-                        Find
-                        out how and what to contribute using the<br>resources below</h6>
-                    <h5 class="p-3">Open Issues ></h5>
-                    <h5 class="p-2">Open Bounties ></h5>
-                    <h5 class="p-2">Documentation ></h5>
-                    <h5 class="p-2 pb-5">Contributing Guidelines ></h5>
+        </section>
+
+        <section class="background6 mt-5 mb-5">
+
+            <div class="text-center">
+                <h2 class="pb-4 pt-5">What is MetaMask?</h2>
+
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item w-50 Yvideo mb-5"
+                        src="https://www.youtube.com/embed/YVgfHZMFFFQ" allowfullscreen></iframe>
                 </div>
-            </section>
+            </div>
 
-            <section class="background9">
-                <div class="row justify-content-center p-4">
-                    <div class="col-md-3">
-                        <img class="img-fluid" src="./images/mm-shop-hoodie.webp" alt="please try again">
+        </section>
+
+
+        <div class="container">
+            <section class="background7 mt-5">
+                <div class="box  pt-5">
+                    <h2 class="text-center">Your key to blockchain applications</h2>
+                    <h6 class="text-center w-90">MetaMask provides an essential utility for blockchain newcomers,
+                        token
+                        traders, crypto gamers, and developers. Over a million <br>downloads and counting!</h6>
+                    <div class="row">
+                        <img src="./images/dapp-aave.webp" class="col-md-3 img-fluid p-5">
+                        <img src="./images/dapp-axieinfinity.png" class=" col-md-3 img-fluid p-5">
+                        <img src="./images/dapp-compound.png" class="col-md-3 img-fluid p-5">
+                        <img src="./images/dapp-gitcoin.png" class="col-md-3 img-fluid p-5">
                     </div>
-                    <div class="col-md-3 p-4 mt-5">
-                        <h3 class="pt-5 mt-5 text-light">Shop MetaMask Swag</h3>
-                        <button type="button" class="btn btn-outline-light ps-3 pe-3 mt-3">Shop now</button>
-                    </div>
-                </div>
-            </section>
-
-            <section class="background10 mb-5">
-                <div class="text-center">
-
-                    <h4 class="p-2 mt-5">Receive our Newsletter</h4>
-                    <h6 class="p-2 ">Sign up to receive updates and announcements</h6>
-                    <button type="button" class="btn btn-primary p-3 mt-3 ps-3 pe-3">Sign-up</button>
-                </div>
-            </section>
-
-            <section class="background11">
-
-                <div class="container fLogo ">
-                    <img src="./images/metamask.png" class="footerLogo m-4 mt-5 mb-5">
-                </div>
-                <div class="row justify-content-md-center ms-1 me-1">
-
-                    <div class="col-md-2 mb-3 ">
-
-                        <h5 class="fTitle pb-2">Learn More</h5>
-                        <h6 class="fItem">About</h6>
-                        <h6 class="fItem">Developers Docs</h6>
-                        <h6 class="fItem">Download</h6>
-                        <h6 class="fItem">Documentation</h6>
-                        <h6 class="fItem">MetaMask Institutional</h6>
-                        <h6 class="fItem">Security</h6>
-                    </div>
-                    <div class="col-md-2 mb-3">
-                        <h5 class="fTitle pb-2">Get Involved</h5>
-                        <h6 class="fItem">GitHub</h6>
-                        <h6 class="fItem">Gitcoin</h6>
-                        <h6 class="fItem">Open Positions</h6>
-                        <h6 class="fItem">Swag Shop</h6>
-                        <h6 class="fItem">Press & Partnerships</h6>
-
-                    </div>
-                    <div class="col-md-2 mb-3">
-                        <h5 class="fTitle pb-2">Connect</h5>
-                        <h6 class="fItem">FAQs</h6>
-                        <h6 class="fItem">Support</h6>
-                        <h6 class="fItem">News</h6>
-                        <h6 class="fItem">Twitter</h6>
+                    <div class="row">
+                        <img src="./images/dapp-maker.png" class=" col-md-3  img-fluid p-5">
+                        <img src="./images/dapp-opensea.png" class=" col-md-3  img-fluid p-5">
+                        <img src="./images/dapp-rarible.png" class="col-md-3  img-fluid p-5">
+                        <img src="./images/dapp-uniswap.png" class=" col-md-3 img-fluid p-5">
                     </div>
 
-                    <div class="col-md-2 mb-3">
-                        <h5 class="fTitle pb-2">Legal</h5>
-                        <h6 class="fItem">Privacy Policy</h6>
-                        <h6 class="fItem">Terms of Use</h6>
-                        <h6 class="fItem">Contributor License</h6>
-                        <h6 class="fItem">Agreement</h6>
-                        <h6 class="fItem">Site Map</h6>
-
-                    </div>
-                </div>
-                <div class="container">
-                    <h6 class="m-3 pb-4">@2022 MetaMask • A ConsenSys Formation</h6>
                 </div>
             </section>
         </div>
+        <section class="background8 bg-dark w-100">
+            <div class="box text-center text-light">
+                <h2 class="pt-5 pb-3">Devolopers</h2>
+                <h6>MetaMask is powered by a strong community from across the globe. Interested in contributing?
+                    Find
+                    out how and what to contribute using the<br>resources below</h6>
+                <h5 class="p-3">Open Issues ></h5>
+                <h5 class="p-2">Open Bounties ></h5>
+                <h5 class="p-2">Documentation ></h5>
+                <h5 class="p-2 pb-5">Contributing Guidelines ></h5>
+            </div>
+        </section>
+
+        <section class="background9">
+            <div class="row justify-content-center p-4">
+                <div class="col-md-3">
+                    <img class="img-fluid" src="./images/mm-shop-hoodie.webp" alt="please try again">
+                </div>
+                <div class="col-md-3 p-4 mt-5">
+                    <h3 class="pt-5 mt-5 text-light">Shop MetaMask Swag</h3>
+                    <button type="button" class="btn btn-outline-light ps-3 pe-3 mt-3">Shop now</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="background10 mb-5">
+            <div class="text-center">
+
+                <h4 class="p-2 mt-5">Receive our Newsletter</h4>
+                <h6 class="p-2 ">Sign up to receive updates and announcements</h6>
+                <button type="button" class="btn btn-primary p-3 mt-3 ps-3 pe-3">Sign-up</button>
+            </div>
+        </section>
+
+        <section class="background11" id="Bg11">
+
+            <div class="container fLogo ">
+                <img src="./images/metamask.png" id="dLogo" class="footerLogo m-4 mt-5 mb-5">
+            </div>
+            <div class="row justify-content-md-center ms-1 me-1">
+
+                <div class="col-md-2 mb-3 ">
+
+                    <h5 class="fTitle pb-2">Learn More</h5>
+                    <h6 class="fItem">About</h6>
+                    <h6 class="fItem">Developers Docs</h6>
+                    <h6 class="fItem">Download</h6>
+                    <h6 class="fItem">Documentation</h6>
+                    <h6 class="fItem">MetaMask Institutional</h6>
+                    <h6 class="fItem">Security</h6>
+                </div>
+                <div class="col-md-2 mb-3">
+                    <h5 class="fTitle pb-2">Get Involved</h5>
+                    <h6 class="fItem">GitHub</h6>
+                    <h6 class="fItem">Gitcoin</h6>
+                    <h6 class="fItem">Open Positions</h6>
+                    <h6 class="fItem">Swag Shop</h6>
+                    <h6 class="fItem">Press & Partnerships</h6>
+
+                </div>
+                <div class="col-md-2 mb-3">
+                    <h5 class="fTitle pb-2">Connect</h5>
+                    <h6 class="fItem">FAQs</h6>
+                    <h6 class="fItem">Support</h6>
+                    <h6 class="fItem">News</h6>
+                    <h6 class="fItem">Twitter</h6>
+                </div>
+
+                <div class="col-md-2 mb-3">
+                    <h5 class="fTitle pb-2">Legal</h5>
+                    <h6 class="fItem">Privacy Policy</h6>
+                    <h6 class="fItem">Terms of Use</h6>
+                    <h6 class="fItem">Contributor License</h6>
+                    <h6 class="fItem">Agreement</h6>
+                    <h6 class="fItem">Site Map</h6>
+
+                </div>
+            </div>
+            <div class="container">
+                <h6 class="m-3 pb-4">@2022 MetaMask • A ConsenSys Formation</h6>
+            </div>
+        </section>
+    </div>
+
+
 </body>
 
 </html>

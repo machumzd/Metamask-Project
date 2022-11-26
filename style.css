@@ -19,6 +19,9 @@ body{
     margin:0;
   
 }
+.nav-link{
+    color:black;
+}
 .fullBg{
     overflow: hidden;
 }
@@ -26,9 +29,7 @@ body{
     display: block;
     margin-top: 0;
  }
- .nav-link{
-    color:black;
-}
+
 .dropdown-item:hover,.nav-link:hover{
     color: #146ff8;
 
@@ -37,7 +38,10 @@ body{
     background-color: #6a737d;
 }
 .background11 {
-    background-color: #e9ebee !important;
+    background-color: #e9ebee;
+}
+.navbar{
+    background-color: white;
 }
 
 /* .boxImage{
@@ -79,7 +83,9 @@ background-color: #0076b4;
     font-size: 24px;
     font-family: Bold;
 }
-
+.dToggle{
+    font-size: 2.5rem;
+}
 .footerLogo{
     max-width: 190px;
     max-height:45px;
@@ -94,6 +100,10 @@ background-color: #0076b4;
 }
 .fItem:hover{
 color: #146ff8;
+}
+.dark-mode{
+    background-color: black;
+    color:white;
 }
 @media screen and (max-width:988px) {
   
